@@ -1,3 +1,8 @@
 keras
 tensorflow
 h5py
+matplotlib
+
+# warning! this is for mac os. pick the right package for your at pytorch.org
+http://download.pytorch.org/whl/torch-0.3.1-cp36-cp36m-macosx_10_7_x86_64.whl
+torchvision
