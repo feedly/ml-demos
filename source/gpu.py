@@ -65,7 +65,7 @@ def data_shipping_experiment(n:int):
 
     print(f'GPU only operations took {t1-t0}')
 
-    #let's ship data like a mofo
+    #let's a lot of data
     tensor1 = torch.FloatTensor(200, 200)
     tensor2 = torch.FloatTensor(200, 200)
 
