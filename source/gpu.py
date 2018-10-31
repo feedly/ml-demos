@@ -45,7 +45,7 @@ def data_shipping_experiment(n:int):
     array2 = np.random.randn(200,200)
     t0 = time.time()
     for i in range(n):
-        array3 = array1.matmul(array2)
+        array3 = array1.dot(array2)
         array1 = array3
     t1 = time.time()
 
