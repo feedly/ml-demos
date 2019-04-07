@@ -45,7 +45,7 @@ def data_shipping_experiment(n:int):
     array2 = np.random.randn(200,200)
     t0 = time.time()
     for i in range(n):
-        array3 = array1.matmul(array2)
+        array3 = array1.dot(array2)
         array1 = array3
     t1 = time.time()
 
@@ -65,7 +65,7 @@ def data_shipping_experiment(n:int):
 
     print(f'GPU only operations took {t1-t0}')
 
-    #let's ship data like a mofo
+    #let's a lot of data
     tensor1 = torch.FloatTensor(200, 200)
     tensor2 = torch.FloatTensor(200, 200)
 
